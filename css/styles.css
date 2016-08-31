@@ -1,0 +1,112 @@
+/*
+ * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #302B27;
+    font-family: 'Lora', serif;
+}
+
+.row {
+  text-align: center;
+}
+
+.image-bg-fluid-height {
+  	background: url(../images/bavaria.jpg) no-repeat center center scroll;
+    height: 600px;
+}
+
+.image-bg-fixed-height {
+  	background: url(../images/obey.jpg) no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/****** Nav Bar *******/
+nav.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: #7E786D !important;
+}
+a.navbar-brand {
+    color: black !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: black !important;
+    float: right;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: black !important;
+    background-color: rgba(255,255,255,0.7);
+}
+
+/***** images *****/
+.prof-img-container {
+    width: 33%;
+    min-width: 350px;
+    float: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+.prof-img {
+    max-height: 150px;
+    width: auto;
+    min-width: 250px;
+    float: none;
+}
+
+.prof-pic {
+  max-height: 250px !important;
+  border-radius: 6em;
+}
+
+section {
+    padding: 75px 0;
+    background-color: #302B27;
+    color: #FCE2A7;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+@media(max-width:1058px) {
+  .prof-img-container {
+      width: 100%;
+      display: block;
+  }
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
